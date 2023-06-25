@@ -1,38 +1,27 @@
+![image](https://github.com/upatrick/API-RickAndMorty/assets/52748492/f6c8e090-5c9b-4a4a-927a-507b4de8de7c)
+
 # API de Rick and Morty
 
-
-https://github.com/Thamireslopescz/Front-III---Thamires/assets/100656019/97e2d155-13c4-4729-b116-9f35dbf42e76
-
-
-Este projeto é uma aplicação web que utiliza a API de Rick and Morty para exibir informações sobre personagens da série. Através dessa aplicação, os usuários podem pesquisar por personagens, visualizar detalhes sobre eles e navegar entre as páginas de resultados.
+Este é um projeto de uma página web que utiliza a API de Rick and Morty para buscar e exibir informações sobre os personagens, localizações e episódios da série.
 
 ## Funcionalidades
 
-- Pesquisa de Personagens: Os usuários podem digitar um nome no campo de pesquisa e clicar no botão de busca para encontrar personagens correspondentes.
-- Exibição de Personagens: Os personagens correspondentes à pesquisa são exibidos em cards contendo uma imagem, nome, status, espécie, última localização conhecida e o episódio mais recente em que o personagem apareceu.
-- Modal de Detalhes: Ao clicar em um card de personagem, um modal é aberto exibindo informações mais detalhadas sobre o personagem, incluindo a última localização conhecida e o episódio mais recente em que ele apareceu.
-- Paginação: Os resultados da pesquisa são exibidos em páginas, permitindo que os usuários naveguem entre os diferentes conjuntos de resultados.
-- Contagem de Dados: O rodapé da página exibe o número total de personagens, localizações e episódios disponíveis na API.
+- Busca de personagens: você pode digitar um nome na caixa de pesquisa e clicar no botão de busca para encontrar personagens correspondentes.
+- Exibição de personagens: os personagens encontrados são exibidos na página em forma de cartões, mostrando sua imagem, nome, status, espécie, última localização conhecida e último episódio em que apareceu.
+- Contagem de personagens, localizações e episódios: a contagem total de personagens, localizações e episódios é exibida no rodapé da página e é atualizada automaticamente.
 
-## Tecnologias Utilizadas
+## Tecnologias utilizadas
 
-- HTML: Utilizado para a estruturação do conteúdo da página.
-- CSS: Utilizado para o estilo e a aparência da página.
-- JavaScript: Utilizado para a interatividade da página e integração com a API.
-- Bootstrap Icons: Biblioteca de ícones utilizada para adicionar ícones aos botões.
+- HTML
+- CSS (com Bootstrap)
+- JavaScript
+- Biblioteca Axios para fazer requisições HTTP
 
-## Como Utilizar
+## Como executar o projeto
 
-1. Abra o arquivo `index.html` em um navegador web.
-2. Digite o nome de um personagem no campo de pesquisa.
-3. Clique no botão de busca para exibir os resultados correspondentes.
-4. Navegue entre as páginas de resultados clicando nos botões de paginação.
-5. Clique em um card de personagem para abrir o modal com mais detalhes.
-6. Clique no botão de fechar ou fora do modal para fechá-lo.
+1. Faça o download dos arquivos deste repositório.
+2. Abra o arquivo `index.html` em um navegador web.
 
 ## Autor
 
-Este projeto foi desenvolvido por Thamires Lopes em 2023. Para mais informações, acesse o perfil do [GitHub](https://github.com/Thamireslopescz) do autor.
-
----
-*Observação: O projeto utiliza a biblioteca Axios para fazer requisições HTTP para a API de Rick and Morty. Certifique-se de estar conectado à internet para o correto funcionamento da aplicação.*
+Esta API é mantida e disponibilizada por Patrick Dutra. Para mais informações, entre em contato através do email patrickdutra100@hotmail.com.
